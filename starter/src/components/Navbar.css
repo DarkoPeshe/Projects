@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-bottom: 10px solid turquoise;
+}
+
+.navbarImage {
+  display: block;
+  width: 80vw;
+  height: 50vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/images/raw/Girls-Listen-Music_0.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.navbarTitle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+  pointer-events: none;
+}

@@ -1,0 +1,23 @@
+.albums-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.album-link {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.album-item {
+  text-align: center;
+  width: 100%;
+}
+
+.album-image {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
