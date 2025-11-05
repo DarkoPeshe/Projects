@@ -1,0 +1,51 @@
+.logo img {
+  width: 100px;
+}
+
+nav {
+  display: flex;
+  width: 95%;
+  margin-inline: auto;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.831);
+  background-color: white;
+  padding: 20px 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 3rem;
+}
+
+nav li a {
+  color: black;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  color: gray;
+}
+
+.fa-icon {
+  font-size: 23px;
+  padding: 0 10px;
+}
+
+.icons {
+  color: black;
+  font-size: 23px;
+  padding: 0 10px;
+}
+
+.icons .magnyfing-glass {
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.icons .shopping-bag {
+  cursor: pointer;
+}

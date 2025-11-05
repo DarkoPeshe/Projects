@@ -1,0 +1,66 @@
+.card-body {
+  padding: 15px;
+  color: black;
+}
+
+main {
+  width: 95%;
+  margin-inline: auto;
+  display: flex;
+}
+
+.main-content {
+  background-color: white;
+  padding: 20px;
+  width: 70%;
+}
+
+#bike-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.bike-card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 8px;
+}
+
+.bike-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.bike-card h4 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.bike-card p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.card {
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
+
+.card-body {
+  background-color: orange;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}

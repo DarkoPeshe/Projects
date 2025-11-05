@@ -1,0 +1,63 @@
+footer {
+  height: 45vh;
+  width: 95%;
+  margin-inline: auto;
+  background-color: rgba(255, 255, 255, 0.774);
+}
+
+.card-parent {
+  display: flex;
+  padding: 30px 0;
+  width: 95%;
+  margin-inline: auto;
+  gap: 280px;
+}
+
+.social-links i {
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  padding: 20px 20px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.social-links a {
+  padding-right: 10px;
+}
+
+.social-links i:hover {
+  color: gray;
+}
+
+.border-left {
+  border-left: 1px solid rgba(128, 128, 128, 0.58);
+  padding-left: 20px;
+}
+.event-info a {
+  color: black;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.registration a {
+  color: black;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.schedule a {
+  color: black;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.event-info span {
+  padding-bottom: 20px;
+}
+
+.footer-headline {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
